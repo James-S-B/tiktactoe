@@ -1,0 +1,48 @@
+h1 {
+    margin-top: 20px;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 160px);
+    grid-gap: 5px;
+    height: 450px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* .gridwrapper div {
+    width: 100%
+} */
+
+.box {
+    background-color: coral;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2 {
+    text-align: center;
+    width: max-content;
+    height: au;
+}
+
+.indicators {
+    position: absolute;
+    width: max-content;
+    height: auto;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+/* .hidden {
+    visibility: hidden;
+} */
