@@ -31,7 +31,14 @@ h1 {
 div h2 {
     text-align: center;
     width: max-content;
-    height: au;
+}
+
+.tempindicators {
+    position: absolute;
+    width: max-content;
+    height: auto;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .indicators {
