@@ -50,15 +50,7 @@ function win(who) {
 }
 
 reset.onclick = function(e) {
-    for (i = 0; i < 9; i++) {
-        const squares = document.getElementById(`${i}`);
-        // squares.removeEventListener('click', play);
-
-    };
-    removeSquares();
-    squaresfunc();
-    reset.classList.remove(`fade`);
-    textbox.textContent = e.target.id
+    document.location.reload()
 }
 
 const removeSquares = () => {
